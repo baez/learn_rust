@@ -12,4 +12,11 @@ fn main() {
 
     let is_this_real:bool = true;
     println!("is this real? {}", is_this_real);
+
+    let bits_two = 2;
+    let bits_four = 4;
+    let bits_one = 1;
+
+    let r = bits_four | bits_two | bits_one;
+    println!("let and these together? {}", r);
 }
