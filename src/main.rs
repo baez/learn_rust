@@ -9,4 +9,7 @@ fn main() {
 
     let result_fp:f32 = f32::powf(1.34, 0.3);
     println!("1.34 to the power of 0.3 is: {}", result_fp);   
+
+    let is_this_real:bool = true;
+    println!("is this real? {}", is_this_real);
 }
